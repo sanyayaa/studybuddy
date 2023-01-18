@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-zgixuu$%&_w)7v_u7a-o)dt6ese3296w%*=fznikco_3se&yo@
 DEBUG = True
 
 ALLOWED_HOSTS = ['study-buddy.up.railway.app', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1', 'http://localhost', 'https://study-buddy.up.railway.app']
 
 
 # Application definition
